@@ -7,6 +7,7 @@ body {
     align-items: center;
     flex-direction: column;
     border: solid khaki;
+    min-height: 100vh;
 }
 
 #heading-main {
