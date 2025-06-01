@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 480px;
+
+
+
+}
+
+.loop-div-row {
+    border: 1px solid red;
+    display: flex;
+    flex: 1;
+}
+
+.loop-div {
+    border: 1px solid black;
+    flex-grow: 1;
+}
